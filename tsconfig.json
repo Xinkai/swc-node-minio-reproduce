@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "allowImportingTsExtensions": false,
+        "noEmit": true,
+        "verbatimModuleSyntax": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "preserveConstEnums": true,
+        "pretty": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "target": "ESNext",
+
+        "strict": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "include": ["src/**/*"]
+}
